@@ -1,0 +1,8 @@
+meteor/.babel-cache
+meteor/.meteor
+meteor/dev_bundle
+meteor/packages
+mk/templates/ui/dev01
+dev01.gabbyville.com/.meteor
+dev02.gabbyville.com/.meteor
+rad.gabbyville.com/.meteor

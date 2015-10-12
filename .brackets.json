@@ -1,0 +1,20 @@
+{
+    "sass.enabled": false,
+    "sass.compiler": "libsass",
+    "path": {
+        "s.dev01.gabbyville.com/template/client/stylesheets/scss/style.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../../../../../Static_Full_Version/css/",
+                "imagePath": null,
+                "sourceComments": false,
+                "outputStyle": "compressed"
+            },
+            "bigeyex.bracketsSFTPUpload.D:/gv/|changed_files": {
+                "D:/gv/Static_Full_Version/index.html": 1,
+                "D:/gv/.brackets.json": 1,
+                "D:/gv/s.dev01.gabbyville.com/template/client/stylesheets/scss/style.scss": 1
+            }
+        }
+    }
+}

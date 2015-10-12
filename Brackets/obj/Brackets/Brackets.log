@@ -1,0 +1,696 @@
+﻿Build started 10/6/2015 3:36:32 PM.
+     1>Project "D:\brackets-shell\Brackets.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         copy_resources
+         Invalid number of parameters
+         0 File(s) copied
+         Copying appshell/node-core/ to Release\
+         D:\brackets-shell\appshell\node-core\BaseDomain.js -> D:\brackets-shell\Release\node-core\BaseDomain.js
+         D:\brackets-shell\appshell\node-core\ConnectionManager.js -> D:\brackets-shell\Release\node-core\ConnectionManager.js
+         D:\brackets-shell\appshell\node-core\DomainManager.js -> D:\brackets-shell\Release\node-core\DomainManager.js
+         D:\brackets-shell\appshell\node-core\Launcher.js -> D:\brackets-shell\Release\node-core\Launcher.js
+         D:\brackets-shell\appshell\node-core\Logger.js -> D:\brackets-shell\Release\node-core\Logger.js
+         D:\brackets-shell\appshell\node-core\package.json -> D:\brackets-shell\Release\node-core\package.json
+         D:\brackets-shell\appshell\node-core\README.md -> D:\brackets-shell\Release\node-core\README.md
+         D:\brackets-shell\appshell\node-core\Server.js -> D:\brackets-shell\Release\node-core\Server.js
+         D:\brackets-shell\appshell\node-core\thirdparty\ws\index.js -> D:\brackets-shell\Release\node-core\thirdparty\ws\index.js
+         D:\brackets-shell\appshell\node-core\thirdparty\ws\package.json -> D:\brackets-shell\Release\node-core\thirdparty\ws\package.json
+         D:\brackets-shell\appshell\node-core\thirdparty\ws\README.md -> D:\brackets-shell\Release\node-core\thirdparty\ws\README.md
+         D:\brackets-shell\appshell\node-core\thirdparty\ws\lib\browser.js -> D:\brackets-shell\Release\node-core\thirdparty\ws\lib\browser.js
+         D:\brackets-shell\appshell\node-core\thirdparty\ws\lib\BufferPool.js -> D:\brackets-shell\Release\node-core\thirdparty\ws\lib\BufferPool.js
+         D:\brackets-shell\appshell\node-core\thirdparty\ws\lib\BufferUtil.js -> D:\brackets-shell\Release\node-core\thirdparty\ws\lib\BufferUtil.js
+         D:\brackets-shell\appshell\node-core\thirdparty\ws\lib\ErrorCodes.js -> D:\brackets-shell\Release\node-core\thirdparty\ws\lib\ErrorCodes.js
+         D:\brackets-shell\appshell\node-core\thirdparty\ws\lib\options.js -> D:\brackets-shell\Release\node-core\thirdparty\ws\lib\options.js
+         D:\brackets-shell\appshell\node-core\thirdparty\ws\lib\Receiver.hixie.js -> D:\brackets-shell\Release\node-core\thirdparty\ws\lib\Receiver.hixie.js
+         D:\brackets-shell\appshell\node-core\thirdparty\ws\lib\Receiver.js -> D:\brackets-shell\Release\node-core\thirdparty\ws\lib\Receiver.js
+         D:\brackets-shell\appshell\node-core\thirdparty\ws\lib\Sender.hixie.js -> D:\brackets-shell\Release\node-core\thirdparty\ws\lib\Sender.hixie.js
+         D:\brackets-shell\appshell\node-core\thirdparty\ws\lib\Sender.js -> D:\brackets-shell\Release\node-core\thirdparty\ws\lib\Sender.js
+         D:\brackets-shell\appshell\node-core\thirdparty\ws\lib\Validation.js -> D:\brackets-shell\Release\node-core\thirdparty\ws\lib\Validation.js
+         D:\brackets-shell\appshell\node-core\thirdparty\ws\lib\WebSocket.js -> D:\brackets-shell\Release\node-core\thirdparty\ws\lib\WebSocket.js
+         D:\brackets-shell\appshell\node-core\thirdparty\ws\lib\WebSocketServer.js -> D:\brackets-shell\Release\node-core\thirdparty\ws\lib\WebSocketServer.js
+         23 File(s) copied
+         Copying deps/node/node.exe to Release\node.exe
+                 1 file(s) copied.
+         Copying Resources/cef.pak to Release\cef.pak
+                 1 file(s) copied.
+         Copying Resources/devtools_resources.pak to Release\devtools_resources.pak
+                 1 file(s) copied.
+         Copying Resources/locales/ to Release\
+         D:\brackets-shell\Resources\locales\am.pak -> D:\brackets-shell\Release\locales\am.pak
+         D:\brackets-shell\Resources\locales\ar.pak -> D:\brackets-shell\Release\locales\ar.pak
+         D:\brackets-shell\Resources\locales\bg.pak -> D:\brackets-shell\Release\locales\bg.pak
+         D:\brackets-shell\Resources\locales\bn.pak -> D:\brackets-shell\Release\locales\bn.pak
+         D:\brackets-shell\Resources\locales\ca.pak -> D:\brackets-shell\Release\locales\ca.pak
+         D:\brackets-shell\Resources\locales\cs.pak -> D:\brackets-shell\Release\locales\cs.pak
+         D:\brackets-shell\Resources\locales\da.pak -> D:\brackets-shell\Release\locales\da.pak
+         D:\brackets-shell\Resources\locales\de.pak -> D:\brackets-shell\Release\locales\de.pak
+         D:\brackets-shell\Resources\locales\el.pak -> D:\brackets-shell\Release\locales\el.pak
+         D:\brackets-shell\Resources\locales\en-GB.pak -> D:\brackets-shell\Release\locales\en-GB.pak
+         D:\brackets-shell\Resources\locales\en-US.pak -> D:\brackets-shell\Release\locales\en-US.pak
+         D:\brackets-shell\Resources\locales\es-419.pak -> D:\brackets-shell\Release\locales\es-419.pak
+         D:\brackets-shell\Resources\locales\es.pak -> D:\brackets-shell\Release\locales\es.pak
+         D:\brackets-shell\Resources\locales\et.pak -> D:\brackets-shell\Release\locales\et.pak
+         D:\brackets-shell\Resources\locales\fa.pak -> D:\brackets-shell\Release\locales\fa.pak
+         D:\brackets-shell\Resources\locales\fi.pak -> D:\brackets-shell\Release\locales\fi.pak
+         D:\brackets-shell\Resources\locales\fil.pak -> D:\brackets-shell\Release\locales\fil.pak
+         D:\brackets-shell\Resources\locales\fr.pak -> D:\brackets-shell\Release\locales\fr.pak
+         D:\brackets-shell\Resources\locales\gu.pak -> D:\brackets-shell\Release\locales\gu.pak
+         D:\brackets-shell\Resources\locales\he.pak -> D:\brackets-shell\Release\locales\he.pak
+         D:\brackets-shell\Resources\locales\hi.pak -> D:\brackets-shell\Release\locales\hi.pak
+         D:\brackets-shell\Resources\locales\hr.pak -> D:\brackets-shell\Release\locales\hr.pak
+         D:\brackets-shell\Resources\locales\hu.pak -> D:\brackets-shell\Release\locales\hu.pak
+         D:\brackets-shell\Resources\locales\id.pak -> D:\brackets-shell\Release\locales\id.pak
+         D:\brackets-shell\Resources\locales\it.pak -> D:\brackets-shell\Release\locales\it.pak
+         D:\brackets-shell\Resources\locales\ja.pak -> D:\brackets-shell\Release\locales\ja.pak
+         D:\brackets-shell\Resources\locales\kn.pak -> D:\brackets-shell\Release\locales\kn.pak
+         D:\brackets-shell\Resources\locales\ko.pak -> D:\brackets-shell\Release\locales\ko.pak
+         D:\brackets-shell\Resources\locales\lt.pak -> D:\brackets-shell\Release\locales\lt.pak
+         D:\brackets-shell\Resources\locales\lv.pak -> D:\brackets-shell\Release\locales\lv.pak
+         D:\brackets-shell\Resources\locales\ml.pak -> D:\brackets-shell\Release\locales\ml.pak
+         D:\brackets-shell\Resources\locales\mr.pak -> D:\brackets-shell\Release\locales\mr.pak
+         D:\brackets-shell\Resources\locales\ms.pak -> D:\brackets-shell\Release\locales\ms.pak
+         D:\brackets-shell\Resources\locales\nb.pak -> D:\brackets-shell\Release\locales\nb.pak
+         D:\brackets-shell\Resources\locales\nl.pak -> D:\brackets-shell\Release\locales\nl.pak
+         D:\brackets-shell\Resources\locales\pl.pak -> D:\brackets-shell\Release\locales\pl.pak
+         D:\brackets-shell\Resources\locales\pt-BR.pak -> D:\brackets-shell\Release\locales\pt-BR.pak
+         D:\brackets-shell\Resources\locales\pt-PT.pak -> D:\brackets-shell\Release\locales\pt-PT.pak
+         D:\brackets-shell\Resources\locales\ro.pak -> D:\brackets-shell\Release\locales\ro.pak
+         D:\brackets-shell\Resources\locales\ru.pak -> D:\brackets-shell\Release\locales\ru.pak
+         D:\brackets-shell\Resources\locales\sk.pak -> D:\brackets-shell\Release\locales\sk.pak
+         D:\brackets-shell\Resources\locales\sl.pak -> D:\brackets-shell\Release\locales\sl.pak
+         D:\brackets-shell\Resources\locales\sr.pak -> D:\brackets-shell\Release\locales\sr.pak
+         D:\brackets-shell\Resources\locales\sv.pak -> D:\brackets-shell\Release\locales\sv.pak
+         D:\brackets-shell\Resources\locales\sw.pak -> D:\brackets-shell\Release\locales\sw.pak
+         D:\brackets-shell\Resources\locales\ta.pak -> D:\brackets-shell\Release\locales\ta.pak
+         D:\brackets-shell\Resources\locales\te.pak -> D:\brackets-shell\Release\locales\te.pak
+         D:\brackets-shell\Resources\locales\th.pak -> D:\brackets-shell\Release\locales\th.pak
+         D:\brackets-shell\Resources\locales\tr.pak -> D:\brackets-shell\Release\locales\tr.pak
+         D:\brackets-shell\Resources\locales\uk.pak -> D:\brackets-shell\Release\locales\uk.pak
+         D:\brackets-shell\Resources\locales\vi.pak -> D:\brackets-shell\Release\locales\vi.pak
+         D:\brackets-shell\Resources\locales\zh-CN.pak -> D:\brackets-shell\Release\locales\zh-CN.pak
+         D:\brackets-shell\Resources\locales\zh-TW.pak -> D:\brackets-shell\Release\locales\zh-TW.pak
+         53 File(s) copied
+         Copying scripts/brackets to Release\command\brackets
+                 1 file(s) copied.
+         Copying scripts/brackets.bat to Release\command\brackets.bat
+                 1 file(s) copied.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Ithird_party\wtl\include /I. /Ithird_party\platformsdk_win8\files\Include\shared /Ithird_party\platformsdk_win8\files\Include\um /Ithird_party\platformsdk_win8\files\Include\winrt /Ithird_party\directxsdk\files\Include /I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\\VC\atlmfc\include" /Zi /nologo /W4 /WX- /O2 /Ob2 /Oy- /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WIN32 /D _WINDOWS /D NOMINMAX /D PSAPI_VERSION=1 /D _CRT_RAND_S /D CERT_CHAIN_PARA_HAS_EXTRA_FIELDS /D WIN32_LEAN_AND_MEAN /D _ATL_NO_OPENGL /D _HAS_EXCEPTIONS=0 /D _SECURE_ATL /D CHROMIUM_BUILD /D TOOLKIT_VIEWS=1 /D USE_LIBJPEG_TURBO=1 /D ENABLE_ONE_CLICK_SIGNIN /D ENABLE_REMOTING=1 /D ENABLE_WEBRTC=1 /D ENABLE_PEPPER_THREADING /D ENABLE_CONFIGURATION_POLICY /D ENABLE_INPUT_SPEECH /D ENABLE_NOTIFICATIONS /D ENABLE_GPU=1 /D ENABLE_EGLIMAGE=1 /D USE_SKIA=1 /D __STD_C /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D NTDDI_VERSION=0x06020000 /D ENABLE_TASK_MANAGER=1 /D ENABLE_WEB_INTENTS=1 /D ENABLE_EXTENSIONS=1 /D ENABLE_PLUGIN_INSTALLATION=1 /D ENABLE_PROTECTOR_SERVICE=1 /D ENABLE_SESSION_SERVICE=1 /D ENABLE_THEMES=1 /D ENABLE_BACKGROUND=1 /D ENABLE_AUTOMATION=1 /D ENABLE_LANGUAGE_DETECTION=1 /D ENABLE_PRINTING=1 /D ENABLE_CAPTIVE_PORTAL_DETECTION=1 /D ENABLE_APP_LIST=1 /D ENABLE_SETTINGS_APP=1 /D USING_CEF_SHARED /D __STDC_CONSTANT_MACROS /D __STDC_FORMAT_MACROS /D NDEBUG /D NVALGRIND /D DYNAMIC_ANNOTATIONS_ENABLED=0 /D _UNICODE /D UNICODE /Gm- /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR- /Fo"D:\brackets-shell\Release\obj\Brackets\\" /Fd"D:\brackets-shell\Release\obj\Brackets\Brackets\vc80.pdb" /Gd /TP /wd4351 /wd4396 /wd4503 /wd4819 /wd4100 /wd4121 /wd4125 /wd4127 /wd4130 /wd4131 /wd4189 /wd4201 /wd4238 /wd4244 /wd4245 /wd4310 /wd4355 /wd4428 /wd4481 /wd4505 /wd4510 /wd4512 /wd4530 /wd4610 /wd4611 /wd4701 /wd4702 /wd4706 /analyze- /errorReport:prompt /MP /we4389 /Oy- appshell\appshell_extensions.cpp appshell\appshell_extensions_win.cpp appshell\appshell_node_process.cpp appshell\appshell_node_process_win.cpp appshell\cefclient.cpp appshell\cefclient_win.cpp appshell\cef_dark_aero_window.cpp appshell\cef_dark_window.cpp appshell\cef_host_window.cpp appshell\cef_main_window.cpp appshell\cef_popup_window.cpp appshell\cef_registry.cpp appshell\cef_window.cpp appshell\client_app.cpp appshell\client_app_delegates.cpp appshell\client_app_win.cpp appshell\client_handler.cpp appshell\client_handler_win.cpp appshell\client_switches.cpp appshell\native_menu_model.cpp appshell\resource_util_win.cpp appshell\string_util.cpp
+         appshell_extensions.cpp
+         appshell_extensions_win.cpp
+         appshell_node_process.cpp
+         appshell_node_process_win.cpp
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'x' hides class member (compiling source file appshell\appshell_extensions_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1109): note: see declaration of '_cef_point_t::x' (compiling source file appshell\appshell_extensions_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'x' hides class member (compiling source file appshell\appshell_extensions.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1109): note: see declaration of '_cef_point_t::x' (compiling source file appshell\appshell_extensions.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'y' hides class member (compiling source file appshell\appshell_extensions_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1110): note: see declaration of '_cef_point_t::y' (compiling source file appshell\appshell_extensions_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'y' hides class member (compiling source file appshell\appshell_extensions.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1110): note: see declaration of '_cef_point_t::y' (compiling source file appshell\appshell_extensions.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'x' hides class member (compiling source file appshell\appshell_extensions_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1117): note: see declaration of '_cef_rect_t::x' (compiling source file appshell\appshell_extensions_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'x' hides class member (compiling source file appshell\appshell_extensions.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1117): note: see declaration of '_cef_rect_t::x' (compiling source file appshell\appshell_extensions.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'y' hides class member (compiling source file appshell\appshell_extensions_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1118): note: see declaration of '_cef_rect_t::y' (compiling source file appshell\appshell_extensions_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'y' hides class member (compiling source file appshell\appshell_extensions.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1118): note: see declaration of '_cef_rect_t::y' (compiling source file appshell\appshell_extensions.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'width' hides class member (compiling source file appshell\appshell_extensions_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1119): note: see declaration of '_cef_rect_t::width' (compiling source file appshell\appshell_extensions_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'width' hides class member (compiling source file appshell\appshell_extensions.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1119): note: see declaration of '_cef_rect_t::width' (compiling source file appshell\appshell_extensions.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'height' hides class member (compiling source file appshell\appshell_extensions_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1120): note: see declaration of '_cef_rect_t::height' (compiling source file appshell\appshell_extensions_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'height' hides class member (compiling source file appshell\appshell_extensions.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1120): note: see declaration of '_cef_rect_t::height' (compiling source file appshell\appshell_extensions.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'width' hides class member (compiling source file appshell\appshell_extensions.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1127): note: see declaration of '_cef_size_t::width' (compiling source file appshell\appshell_extensions.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'width' hides class member (compiling source file appshell\appshell_extensions_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1127): note: see declaration of '_cef_size_t::width' (compiling source file appshell\appshell_extensions_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'height' hides class member (compiling source file appshell\appshell_extensions.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1128): note: see declaration of '_cef_size_t::height' (compiling source file appshell\appshell_extensions.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'height' hides class member (compiling source file appshell\appshell_extensions_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1128): note: see declaration of '_cef_size_t::height' (compiling source file appshell\appshell_extensions_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(299): warning C4458: declaration of 'device_scale_factor' hides class member (compiling source file appshell\appshell_extensions_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(299): warning C4458: declaration of 'device_scale_factor' hides class member (compiling source file appshell\appshell_extensions.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1231): note: see declaration of '_cef_screen_info_t::device_scale_factor' (compiling source file appshell\appshell_extensions_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1231): note: see declaration of '_cef_screen_info_t::device_scale_factor' (compiling source file appshell\appshell_extensions.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(300): warning C4458: declaration of 'depth' hides class member (compiling source file appshell\appshell_extensions_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(300): warning C4458: declaration of 'depth' hides class member (compiling source file appshell\appshell_extensions.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1236): note: see declaration of '_cef_screen_info_t::depth' (compiling source file appshell\appshell_extensions_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1236): note: see declaration of '_cef_screen_info_t::depth' (compiling source file appshell\appshell_extensions.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(301): warning C4458: declaration of 'depth_per_component' hides class member (compiling source file appshell\appshell_extensions_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(301): warning C4458: declaration of 'depth_per_component' hides class member (compiling source file appshell\appshell_extensions.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1242): note: see declaration of '_cef_screen_info_t::depth_per_component' (compiling source file appshell\appshell_extensions_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1242): note: see declaration of '_cef_screen_info_t::depth_per_component' (compiling source file appshell\appshell_extensions.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(302): warning C4458: declaration of 'is_monochrome' hides class member (compiling source file appshell\appshell_extensions_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(302): warning C4458: declaration of 'is_monochrome' hides class member (compiling source file appshell\appshell_extensions.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1247): note: see declaration of '_cef_screen_info_t::is_monochrome' (compiling source file appshell\appshell_extensions_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1247): note: see declaration of '_cef_screen_info_t::is_monochrome' (compiling source file appshell\appshell_extensions.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(303): warning C4458: declaration of 'rect' hides class member (compiling source file appshell\appshell_extensions_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(303): warning C4458: declaration of 'rect' hides class member (compiling source file appshell\appshell_extensions.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1259): note: see declaration of '_cef_screen_info_t::rect' (compiling source file appshell\appshell_extensions_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1259): note: see declaration of '_cef_screen_info_t::rect' (compiling source file appshell\appshell_extensions.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(304): warning C4458: declaration of 'available_rect' hides class member (compiling source file appshell\appshell_extensions_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1274): note: see declaration of '_cef_screen_info_t::available_rect' (compiling source file appshell\appshell_extensions_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(304): warning C4458: declaration of 'available_rect' hides class member (compiling source file appshell\appshell_extensions.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1274): note: see declaration of '_cef_screen_info_t::available_rect' (compiling source file appshell\appshell_extensions.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'from' hides class member (compiling source file appshell\appshell_extensions.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1839): note: see declaration of '_cef_page_range_t::from' (compiling source file appshell\appshell_extensions.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'from' hides class member (compiling source file appshell\appshell_extensions_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1839): note: see declaration of '_cef_page_range_t::from' (compiling source file appshell\appshell_extensions_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'to' hides class member (compiling source file appshell\appshell_extensions.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1840): note: see declaration of '_cef_page_range_t::to' (compiling source file appshell\appshell_extensions.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'to' hides class member (compiling source file appshell\appshell_extensions_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1840): note: see declaration of '_cef_page_range_t::to' (compiling source file appshell\appshell_extensions_win.cpp)
+     1>appshell\appshell_node_process_win.cpp(227): warning C4456: declaration of 'bSuccess' hides previous local declaration
+         appshell\appshell_node_process_win.cpp(185): note: see declaration of 'bSuccess'
+         cefclient.cpp
+         cefclient_win.cpp
+     1>appshell\appshell_extensions_win.cpp(429): warning C4996: 'GetVersionExW': was declared deprecated
+         C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(442): note: see declaration of 'GetVersionExW'
+     1>appshell\appshell_extensions_win.cpp(732): warning C4091: 'typedef ': ignored on left of 'CheckedState' when no variable is declared
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'x' hides class member (compiling source file appshell\cefclient.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1109): note: see declaration of '_cef_point_t::x' (compiling source file appshell\cefclient.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'y' hides class member (compiling source file appshell\cefclient.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1110): note: see declaration of '_cef_point_t::y' (compiling source file appshell\cefclient.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'x' hides class member (compiling source file appshell\cefclient.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1117): note: see declaration of '_cef_rect_t::x' (compiling source file appshell\cefclient.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'y' hides class member (compiling source file appshell\cefclient.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1118): note: see declaration of '_cef_rect_t::y' (compiling source file appshell\cefclient.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'width' hides class member (compiling source file appshell\cefclient.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1119): note: see declaration of '_cef_rect_t::width' (compiling source file appshell\cefclient.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'height' hides class member (compiling source file appshell\cefclient.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1120): note: see declaration of '_cef_rect_t::height' (compiling source file appshell\cefclient.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'width' hides class member (compiling source file appshell\cefclient.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1127): note: see declaration of '_cef_size_t::width' (compiling source file appshell\cefclient.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'height' hides class member (compiling source file appshell\cefclient.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1128): note: see declaration of '_cef_size_t::height' (compiling source file appshell\cefclient.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(299): warning C4458: declaration of 'device_scale_factor' hides class member (compiling source file appshell\cefclient.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1231): note: see declaration of '_cef_screen_info_t::device_scale_factor' (compiling source file appshell\cefclient.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(300): warning C4458: declaration of 'depth' hides class member (compiling source file appshell\cefclient.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1236): note: see declaration of '_cef_screen_info_t::depth' (compiling source file appshell\cefclient.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(301): warning C4458: declaration of 'depth_per_component' hides class member (compiling source file appshell\cefclient.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1242): note: see declaration of '_cef_screen_info_t::depth_per_component' (compiling source file appshell\cefclient.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(302): warning C4458: declaration of 'is_monochrome' hides class member (compiling source file appshell\cefclient.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1247): note: see declaration of '_cef_screen_info_t::is_monochrome' (compiling source file appshell\cefclient.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(303): warning C4458: declaration of 'rect' hides class member (compiling source file appshell\cefclient.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1259): note: see declaration of '_cef_screen_info_t::rect' (compiling source file appshell\cefclient.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(304): warning C4458: declaration of 'available_rect' hides class member (compiling source file appshell\cefclient.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1274): note: see declaration of '_cef_screen_info_t::available_rect' (compiling source file appshell\cefclient.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'from' hides class member (compiling source file appshell\cefclient.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1839): note: see declaration of '_cef_page_range_t::from' (compiling source file appshell\cefclient.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'to' hides class member (compiling source file appshell\cefclient.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1840): note: see declaration of '_cef_page_range_t::to' (compiling source file appshell\cefclient.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'x' hides class member (compiling source file appshell\cefclient_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1109): note: see declaration of '_cef_point_t::x' (compiling source file appshell\cefclient_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'y' hides class member (compiling source file appshell\cefclient_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1110): note: see declaration of '_cef_point_t::y' (compiling source file appshell\cefclient_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'x' hides class member (compiling source file appshell\cefclient_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1117): note: see declaration of '_cef_rect_t::x' (compiling source file appshell\cefclient_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'y' hides class member (compiling source file appshell\cefclient_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1118): note: see declaration of '_cef_rect_t::y' (compiling source file appshell\cefclient_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'width' hides class member (compiling source file appshell\cefclient_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1119): note: see declaration of '_cef_rect_t::width' (compiling source file appshell\cefclient_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'height' hides class member (compiling source file appshell\cefclient_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1120): note: see declaration of '_cef_rect_t::height' (compiling source file appshell\cefclient_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'width' hides class member (compiling source file appshell\cefclient_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1127): note: see declaration of '_cef_size_t::width' (compiling source file appshell\cefclient_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'height' hides class member (compiling source file appshell\cefclient_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1128): note: see declaration of '_cef_size_t::height' (compiling source file appshell\cefclient_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(299): warning C4458: declaration of 'device_scale_factor' hides class member (compiling source file appshell\cefclient_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1231): note: see declaration of '_cef_screen_info_t::device_scale_factor' (compiling source file appshell\cefclient_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(300): warning C4458: declaration of 'depth' hides class member (compiling source file appshell\cefclient_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1236): note: see declaration of '_cef_screen_info_t::depth' (compiling source file appshell\cefclient_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(301): warning C4458: declaration of 'depth_per_component' hides class member (compiling source file appshell\cefclient_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1242): note: see declaration of '_cef_screen_info_t::depth_per_component' (compiling source file appshell\cefclient_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(302): warning C4458: declaration of 'is_monochrome' hides class member (compiling source file appshell\cefclient_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1247): note: see declaration of '_cef_screen_info_t::is_monochrome' (compiling source file appshell\cefclient_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(303): warning C4458: declaration of 'rect' hides class member (compiling source file appshell\cefclient_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1259): note: see declaration of '_cef_screen_info_t::rect' (compiling source file appshell\cefclient_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(304): warning C4458: declaration of 'available_rect' hides class member (compiling source file appshell\cefclient_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1274): note: see declaration of '_cef_screen_info_t::available_rect' (compiling source file appshell\cefclient_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'from' hides class member (compiling source file appshell\cefclient_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1839): note: see declaration of '_cef_page_range_t::from' (compiling source file appshell\cefclient_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'to' hides class member (compiling source file appshell\cefclient_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1840): note: see declaration of '_cef_page_range_t::to' (compiling source file appshell\cefclient_win.cpp)
+         cef_dark_aero_window.cpp
+         cef_dark_window.cpp
+     1>appshell\cef_dark_aero_window.cpp(60): warning C4996: 'GetVersionExW': was declared deprecated
+         C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(442): note: see declaration of 'GetVersionExW'
+         cef_host_window.cpp
+         cef_main_window.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\um\GdiplusHeaders.h(695): warning C4458: declaration of 'nativeCap' hides class member (compiling source file appshell\cef_dark_window.cpp)
+         c:\program files (x86)\windows kits\8.1\include\um\GdiplusHeaders.h(710): note: see declaration of 'Gdiplus::CustomLineCap::nativeCap' (compiling source file appshell\cef_dark_window.cpp)
+     1>c:\program files (x86)\windows kits\8.1\include\um\GdiplusImageAttributes.h(364): warning C4458: declaration of 'nativeImageAttr' hides class member (compiling source file appshell\cef_dark_window.cpp)
+         c:\program files (x86)\windows kits\8.1\include\um\GdiplusImageAttributes.h(378): note: see declaration of 'Gdiplus::ImageAttributes::nativeImageAttr' (compiling source file appshell\cef_dark_window.cpp)
+     1>c:\program files (x86)\windows kits\8.1\include\um\GdiplusMatrix.h(296): warning C4458: declaration of 'nativeMatrix' hides class member (compiling source file appshell\cef_dark_window.cpp)
+         c:\program files (x86)\windows kits\8.1\include\um\GdiplusMatrix.h(310): note: see declaration of 'Gdiplus::Matrix::nativeMatrix' (compiling source file appshell\cef_dark_window.cpp)
+     1>c:\program files (x86)\windows kits\8.1\include\um\GdiplusBrush.h(91): warning C4458: declaration of 'nativeBrush' hides class member (compiling source file appshell\cef_dark_window.cpp)
+         c:\program files (x86)\windows kits\8.1\include\um\GdiplusBrush.h(104): note: see declaration of 'Gdiplus::Brush::nativeBrush' (compiling source file appshell\cef_dark_window.cpp)
+     1>c:\program files (x86)\windows kits\8.1\include\um\GdiplusPen.h(462): warning C4458: declaration of 'nativePen' hides class member (compiling source file appshell\cef_dark_window.cpp)
+         c:\program files (x86)\windows kits\8.1\include\um\GdiplusPen.h(476): note: see declaration of 'Gdiplus::Pen::nativePen' (compiling source file appshell\cef_dark_window.cpp)
+     1>c:\program files (x86)\windows kits\8.1\include\um\GdiplusPath.h(884): warning C4458: declaration of 'nativePath' hides class member (compiling source file appshell\cef_dark_window.cpp)
+         c:\program files (x86)\windows kits\8.1\include\um\GdiplusPath.h(898): note: see declaration of 'Gdiplus::GraphicsPath::nativePath' (compiling source file appshell\cef_dark_window.cpp)
+     1>c:\program files (x86)\windows kits\8.1\include\um\GdiplusPath.h(1071): warning C4458: declaration of 'nativeIterator' hides class member (compiling source file appshell\cef_dark_window.cpp)
+         c:\program files (x86)\windows kits\8.1\include\um\GdiplusPath.h(1085): note: see declaration of 'Gdiplus::GraphicsPathIterator::nativeIterator' (compiling source file appshell\cef_dark_window.cpp)
+     1>c:\program files (x86)\windows kits\8.1\include\um\GdiplusRegion.h(506): warning C4458: declaration of 'nativeRegion' hides class member (compiling source file appshell\cef_dark_window.cpp)
+         c:\program files (x86)\windows kits\8.1\include\um\GdiplusHeaders.h(171): note: see declaration of 'Gdiplus::Region::nativeRegion' (compiling source file appshell\cef_dark_window.cpp)
+     1>c:\program files (x86)\windows kits\8.1\include\um\GdiplusBitmap.h(536): warning C4458: declaration of 'nativeImage' hides class member (compiling source file appshell\cef_dark_window.cpp)
+         c:\program files (x86)\windows kits\8.1\include\um\GdiplusHeaders.h(492): note: see declaration of 'Gdiplus::Image::nativeImage' (compiling source file appshell\cef_dark_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'x' hides class member (compiling source file appshell\cef_host_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1109): note: see declaration of '_cef_point_t::x' (compiling source file appshell\cef_host_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'y' hides class member (compiling source file appshell\cef_host_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1110): note: see declaration of '_cef_point_t::y' (compiling source file appshell\cef_host_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'x' hides class member (compiling source file appshell\cef_host_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1117): note: see declaration of '_cef_rect_t::x' (compiling source file appshell\cef_host_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'y' hides class member (compiling source file appshell\cef_host_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1118): note: see declaration of '_cef_rect_t::y' (compiling source file appshell\cef_host_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'width' hides class member (compiling source file appshell\cef_host_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1119): note: see declaration of '_cef_rect_t::width' (compiling source file appshell\cef_host_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'height' hides class member (compiling source file appshell\cef_host_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1120): note: see declaration of '_cef_rect_t::height' (compiling source file appshell\cef_host_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'width' hides class member (compiling source file appshell\cef_host_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1127): note: see declaration of '_cef_size_t::width' (compiling source file appshell\cef_host_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'height' hides class member (compiling source file appshell\cef_host_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1128): note: see declaration of '_cef_size_t::height' (compiling source file appshell\cef_host_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(299): warning C4458: declaration of 'device_scale_factor' hides class member (compiling source file appshell\cef_host_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1231): note: see declaration of '_cef_screen_info_t::device_scale_factor' (compiling source file appshell\cef_host_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(300): warning C4458: declaration of 'depth' hides class member (compiling source file appshell\cef_host_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1236): note: see declaration of '_cef_screen_info_t::depth' (compiling source file appshell\cef_host_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(301): warning C4458: declaration of 'depth_per_component' hides class member (compiling source file appshell\cef_host_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1242): note: see declaration of '_cef_screen_info_t::depth_per_component' (compiling source file appshell\cef_host_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(302): warning C4458: declaration of 'is_monochrome' hides class member (compiling source file appshell\cef_host_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1247): note: see declaration of '_cef_screen_info_t::is_monochrome' (compiling source file appshell\cef_host_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(303): warning C4458: declaration of 'rect' hides class member (compiling source file appshell\cef_host_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1259): note: see declaration of '_cef_screen_info_t::rect' (compiling source file appshell\cef_host_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(304): warning C4458: declaration of 'available_rect' hides class member (compiling source file appshell\cef_host_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1274): note: see declaration of '_cef_screen_info_t::available_rect' (compiling source file appshell\cef_host_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'from' hides class member (compiling source file appshell\cef_host_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1839): note: see declaration of '_cef_page_range_t::from' (compiling source file appshell\cef_host_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'to' hides class member (compiling source file appshell\cef_host_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1840): note: see declaration of '_cef_page_range_t::to' (compiling source file appshell\cef_host_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'x' hides class member (compiling source file appshell\cef_main_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1109): note: see declaration of '_cef_point_t::x' (compiling source file appshell\cef_main_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'y' hides class member (compiling source file appshell\cef_main_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1110): note: see declaration of '_cef_point_t::y' (compiling source file appshell\cef_main_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'x' hides class member (compiling source file appshell\cef_main_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1117): note: see declaration of '_cef_rect_t::x' (compiling source file appshell\cef_main_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'y' hides class member (compiling source file appshell\cef_main_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1118): note: see declaration of '_cef_rect_t::y' (compiling source file appshell\cef_main_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'width' hides class member (compiling source file appshell\cef_main_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1119): note: see declaration of '_cef_rect_t::width' (compiling source file appshell\cef_main_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'height' hides class member (compiling source file appshell\cef_main_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1120): note: see declaration of '_cef_rect_t::height' (compiling source file appshell\cef_main_window.cpp)
+         cef_popup_window.cpp
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'width' hides class member (compiling source file appshell\cef_main_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1127): note: see declaration of '_cef_size_t::width' (compiling source file appshell\cef_main_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'height' hides class member (compiling source file appshell\cef_main_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1128): note: see declaration of '_cef_size_t::height' (compiling source file appshell\cef_main_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(299): warning C4458: declaration of 'device_scale_factor' hides class member (compiling source file appshell\cef_main_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1231): note: see declaration of '_cef_screen_info_t::device_scale_factor' (compiling source file appshell\cef_main_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(300): warning C4458: declaration of 'depth' hides class member (compiling source file appshell\cef_main_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1236): note: see declaration of '_cef_screen_info_t::depth' (compiling source file appshell\cef_main_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(301): warning C4458: declaration of 'depth_per_component' hides class member (compiling source file appshell\cef_main_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1242): note: see declaration of '_cef_screen_info_t::depth_per_component' (compiling source file appshell\cef_main_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(302): warning C4458: declaration of 'is_monochrome' hides class member (compiling source file appshell\cef_main_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1247): note: see declaration of '_cef_screen_info_t::is_monochrome' (compiling source file appshell\cef_main_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(303): warning C4458: declaration of 'rect' hides class member (compiling source file appshell\cef_main_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1259): note: see declaration of '_cef_screen_info_t::rect' (compiling source file appshell\cef_main_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(304): warning C4458: declaration of 'available_rect' hides class member (compiling source file appshell\cef_main_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1274): note: see declaration of '_cef_screen_info_t::available_rect' (compiling source file appshell\cef_main_window.cpp)
+         cef_registry.cpp
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'from' hides class member (compiling source file appshell\cef_main_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1839): note: see declaration of '_cef_page_range_t::from' (compiling source file appshell\cef_main_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'to' hides class member (compiling source file appshell\cef_main_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1840): note: see declaration of '_cef_page_range_t::to' (compiling source file appshell\cef_main_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'x' hides class member (compiling source file appshell\cef_popup_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1109): note: see declaration of '_cef_point_t::x' (compiling source file appshell\cef_popup_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'y' hides class member (compiling source file appshell\cef_popup_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1110): note: see declaration of '_cef_point_t::y' (compiling source file appshell\cef_popup_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'x' hides class member (compiling source file appshell\cef_popup_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1117): note: see declaration of '_cef_rect_t::x' (compiling source file appshell\cef_popup_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'y' hides class member (compiling source file appshell\cef_popup_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1118): note: see declaration of '_cef_rect_t::y' (compiling source file appshell\cef_popup_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'width' hides class member (compiling source file appshell\cef_popup_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1119): note: see declaration of '_cef_rect_t::width' (compiling source file appshell\cef_popup_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'height' hides class member (compiling source file appshell\cef_popup_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1120): note: see declaration of '_cef_rect_t::height' (compiling source file appshell\cef_popup_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'width' hides class member (compiling source file appshell\cef_popup_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1127): note: see declaration of '_cef_size_t::width' (compiling source file appshell\cef_popup_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'height' hides class member (compiling source file appshell\cef_popup_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1128): note: see declaration of '_cef_size_t::height' (compiling source file appshell\cef_popup_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(299): warning C4458: declaration of 'device_scale_factor' hides class member (compiling source file appshell\cef_popup_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1231): note: see declaration of '_cef_screen_info_t::device_scale_factor' (compiling source file appshell\cef_popup_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(300): warning C4458: declaration of 'depth' hides class member (compiling source file appshell\cef_popup_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1236): note: see declaration of '_cef_screen_info_t::depth' (compiling source file appshell\cef_popup_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(301): warning C4458: declaration of 'depth_per_component' hides class member (compiling source file appshell\cef_popup_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1242): note: see declaration of '_cef_screen_info_t::depth_per_component' (compiling source file appshell\cef_popup_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(302): warning C4458: declaration of 'is_monochrome' hides class member (compiling source file appshell\cef_popup_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1247): note: see declaration of '_cef_screen_info_t::is_monochrome' (compiling source file appshell\cef_popup_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(303): warning C4458: declaration of 'rect' hides class member (compiling source file appshell\cef_popup_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1259): note: see declaration of '_cef_screen_info_t::rect' (compiling source file appshell\cef_popup_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(304): warning C4458: declaration of 'available_rect' hides class member (compiling source file appshell\cef_popup_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1274): note: see declaration of '_cef_screen_info_t::available_rect' (compiling source file appshell\cef_popup_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'from' hides class member (compiling source file appshell\cef_popup_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1839): note: see declaration of '_cef_page_range_t::from' (compiling source file appshell\cef_popup_window.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'to' hides class member (compiling source file appshell\cef_popup_window.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1840): note: see declaration of '_cef_page_range_t::to' (compiling source file appshell\cef_popup_window.cpp)
+         cef_window.cpp
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'x' hides class member (compiling source file appshell\cef_registry.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1109): note: see declaration of '_cef_point_t::x' (compiling source file appshell\cef_registry.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'y' hides class member (compiling source file appshell\cef_registry.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1110): note: see declaration of '_cef_point_t::y' (compiling source file appshell\cef_registry.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'x' hides class member (compiling source file appshell\cef_registry.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1117): note: see declaration of '_cef_rect_t::x' (compiling source file appshell\cef_registry.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'y' hides class member (compiling source file appshell\cef_registry.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1118): note: see declaration of '_cef_rect_t::y' (compiling source file appshell\cef_registry.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'width' hides class member (compiling source file appshell\cef_registry.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1119): note: see declaration of '_cef_rect_t::width' (compiling source file appshell\cef_registry.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'height' hides class member (compiling source file appshell\cef_registry.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1120): note: see declaration of '_cef_rect_t::height' (compiling source file appshell\cef_registry.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'width' hides class member (compiling source file appshell\cef_registry.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1127): note: see declaration of '_cef_size_t::width' (compiling source file appshell\cef_registry.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'height' hides class member (compiling source file appshell\cef_registry.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1128): note: see declaration of '_cef_size_t::height' (compiling source file appshell\cef_registry.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(299): warning C4458: declaration of 'device_scale_factor' hides class member (compiling source file appshell\cef_registry.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1231): note: see declaration of '_cef_screen_info_t::device_scale_factor' (compiling source file appshell\cef_registry.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(300): warning C4458: declaration of 'depth' hides class member (compiling source file appshell\cef_registry.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1236): note: see declaration of '_cef_screen_info_t::depth' (compiling source file appshell\cef_registry.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(301): warning C4458: declaration of 'depth_per_component' hides class member (compiling source file appshell\cef_registry.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1242): note: see declaration of '_cef_screen_info_t::depth_per_component' (compiling source file appshell\cef_registry.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(302): warning C4458: declaration of 'is_monochrome' hides class member (compiling source file appshell\cef_registry.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1247): note: see declaration of '_cef_screen_info_t::is_monochrome' (compiling source file appshell\cef_registry.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(303): warning C4458: declaration of 'rect' hides class member (compiling source file appshell\cef_registry.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1259): note: see declaration of '_cef_screen_info_t::rect' (compiling source file appshell\cef_registry.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(304): warning C4458: declaration of 'available_rect' hides class member (compiling source file appshell\cef_registry.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1274): note: see declaration of '_cef_screen_info_t::available_rect' (compiling source file appshell\cef_registry.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'from' hides class member (compiling source file appshell\cef_registry.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1839): note: see declaration of '_cef_page_range_t::from' (compiling source file appshell\cef_registry.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'to' hides class member (compiling source file appshell\cef_registry.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1840): note: see declaration of '_cef_page_range_t::to' (compiling source file appshell\cef_registry.cpp)
+         client_app.cpp
+         client_app_delegates.cpp
+         client_app_win.cpp
+         client_handler.cpp
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'x' hides class member (compiling source file appshell\client_app.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1109): note: see declaration of '_cef_point_t::x' (compiling source file appshell\client_app.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'y' hides class member (compiling source file appshell\client_app.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1110): note: see declaration of '_cef_point_t::y' (compiling source file appshell\client_app.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'x' hides class member (compiling source file appshell\client_app.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1117): note: see declaration of '_cef_rect_t::x' (compiling source file appshell\client_app.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'y' hides class member (compiling source file appshell\client_app.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1118): note: see declaration of '_cef_rect_t::y' (compiling source file appshell\client_app.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'width' hides class member (compiling source file appshell\client_app.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1119): note: see declaration of '_cef_rect_t::width' (compiling source file appshell\client_app.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'height' hides class member (compiling source file appshell\client_app.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1120): note: see declaration of '_cef_rect_t::height' (compiling source file appshell\client_app.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'width' hides class member (compiling source file appshell\client_app.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1127): note: see declaration of '_cef_size_t::width' (compiling source file appshell\client_app.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'height' hides class member (compiling source file appshell\client_app.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1128): note: see declaration of '_cef_size_t::height' (compiling source file appshell\client_app.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(299): warning C4458: declaration of 'device_scale_factor' hides class member (compiling source file appshell\client_app.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1231): note: see declaration of '_cef_screen_info_t::device_scale_factor' (compiling source file appshell\client_app.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(300): warning C4458: declaration of 'depth' hides class member (compiling source file appshell\client_app.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1236): note: see declaration of '_cef_screen_info_t::depth' (compiling source file appshell\client_app.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(301): warning C4458: declaration of 'depth_per_component' hides class member (compiling source file appshell\client_app.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1242): note: see declaration of '_cef_screen_info_t::depth_per_component' (compiling source file appshell\client_app.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(302): warning C4458: declaration of 'is_monochrome' hides class member (compiling source file appshell\client_app.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1247): note: see declaration of '_cef_screen_info_t::is_monochrome' (compiling source file appshell\client_app.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(303): warning C4458: declaration of 'rect' hides class member (compiling source file appshell\client_app.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1259): note: see declaration of '_cef_screen_info_t::rect' (compiling source file appshell\client_app.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(304): warning C4458: declaration of 'available_rect' hides class member (compiling source file appshell\client_app.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1274): note: see declaration of '_cef_screen_info_t::available_rect' (compiling source file appshell\client_app.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'from' hides class member (compiling source file appshell\client_app.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1839): note: see declaration of '_cef_page_range_t::from' (compiling source file appshell\client_app.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'to' hides class member (compiling source file appshell\client_app.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1840): note: see declaration of '_cef_page_range_t::to' (compiling source file appshell\client_app.cpp)
+     1>appshell\client_app.cpp(95): warning C4457: declaration of 'list' hides function parameter
+         appshell\client_app.cpp(88): note: see declaration of 'list'
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'x' hides class member (compiling source file appshell\client_app_delegates.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1109): note: see declaration of '_cef_point_t::x' (compiling source file appshell\client_app_delegates.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'y' hides class member (compiling source file appshell\client_app_delegates.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1110): note: see declaration of '_cef_point_t::y' (compiling source file appshell\client_app_delegates.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'x' hides class member (compiling source file appshell\client_app_delegates.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1117): note: see declaration of '_cef_rect_t::x' (compiling source file appshell\client_app_delegates.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'x' hides class member (compiling source file appshell\client_app_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1109): note: see declaration of '_cef_point_t::x' (compiling source file appshell\client_app_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'y' hides class member (compiling source file appshell\client_app_delegates.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1118): note: see declaration of '_cef_rect_t::y' (compiling source file appshell\client_app_delegates.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'y' hides class member (compiling source file appshell\client_app_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1110): note: see declaration of '_cef_point_t::y' (compiling source file appshell\client_app_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'width' hides class member (compiling source file appshell\client_app_delegates.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1119): note: see declaration of '_cef_rect_t::width' (compiling source file appshell\client_app_delegates.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'height' hides class member (compiling source file appshell\client_app_delegates.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1120): note: see declaration of '_cef_rect_t::height' (compiling source file appshell\client_app_delegates.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'x' hides class member (compiling source file appshell\client_app_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1117): note: see declaration of '_cef_rect_t::x' (compiling source file appshell\client_app_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'width' hides class member (compiling source file appshell\client_app_delegates.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1127): note: see declaration of '_cef_size_t::width' (compiling source file appshell\client_app_delegates.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'y' hides class member (compiling source file appshell\client_app_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1118): note: see declaration of '_cef_rect_t::y' (compiling source file appshell\client_app_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'height' hides class member (compiling source file appshell\client_app_delegates.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1128): note: see declaration of '_cef_size_t::height' (compiling source file appshell\client_app_delegates.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'width' hides class member (compiling source file appshell\client_app_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1119): note: see declaration of '_cef_rect_t::width' (compiling source file appshell\client_app_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'height' hides class member (compiling source file appshell\client_app_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1120): note: see declaration of '_cef_rect_t::height' (compiling source file appshell\client_app_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(299): warning C4458: declaration of 'device_scale_factor' hides class member (compiling source file appshell\client_app_delegates.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1231): note: see declaration of '_cef_screen_info_t::device_scale_factor' (compiling source file appshell\client_app_delegates.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'width' hides class member (compiling source file appshell\client_app_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1127): note: see declaration of '_cef_size_t::width' (compiling source file appshell\client_app_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(300): warning C4458: declaration of 'depth' hides class member (compiling source file appshell\client_app_delegates.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'height' hides class member (compiling source file appshell\client_app_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1128): note: see declaration of '_cef_size_t::height' (compiling source file appshell\client_app_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1236): note: see declaration of '_cef_screen_info_t::depth' (compiling source file appshell\client_app_delegates.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(301): warning C4458: declaration of 'depth_per_component' hides class member (compiling source file appshell\client_app_delegates.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1242): note: see declaration of '_cef_screen_info_t::depth_per_component' (compiling source file appshell\client_app_delegates.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(302): warning C4458: declaration of 'is_monochrome' hides class member (compiling source file appshell\client_app_delegates.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1247): note: see declaration of '_cef_screen_info_t::is_monochrome' (compiling source file appshell\client_app_delegates.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(303): warning C4458: declaration of 'rect' hides class member (compiling source file appshell\client_app_delegates.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1259): note: see declaration of '_cef_screen_info_t::rect' (compiling source file appshell\client_app_delegates.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(304): warning C4458: declaration of 'available_rect' hides class member (compiling source file appshell\client_app_delegates.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1274): note: see declaration of '_cef_screen_info_t::available_rect' (compiling source file appshell\client_app_delegates.cpp)
+     1>appshell\client_app.cpp(350): warning C4456: declaration of 'handled' hides previous local declaration
+         appshell\client_app.cpp(304): note: see declaration of 'handled'
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(299): warning C4458: declaration of 'device_scale_factor' hides class member (compiling source file appshell\client_app_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1231): note: see declaration of '_cef_screen_info_t::device_scale_factor' (compiling source file appshell\client_app_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(300): warning C4458: declaration of 'depth' hides class member (compiling source file appshell\client_app_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1236): note: see declaration of '_cef_screen_info_t::depth' (compiling source file appshell\client_app_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(301): warning C4458: declaration of 'depth_per_component' hides class member (compiling source file appshell\client_app_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1242): note: see declaration of '_cef_screen_info_t::depth_per_component' (compiling source file appshell\client_app_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(302): warning C4458: declaration of 'is_monochrome' hides class member (compiling source file appshell\client_app_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1247): note: see declaration of '_cef_screen_info_t::is_monochrome' (compiling source file appshell\client_app_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(303): warning C4458: declaration of 'rect' hides class member (compiling source file appshell\client_app_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1259): note: see declaration of '_cef_screen_info_t::rect' (compiling source file appshell\client_app_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(304): warning C4458: declaration of 'available_rect' hides class member (compiling source file appshell\client_app_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1274): note: see declaration of '_cef_screen_info_t::available_rect' (compiling source file appshell\client_app_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'from' hides class member (compiling source file appshell\client_app_delegates.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1839): note: see declaration of '_cef_page_range_t::from' (compiling source file appshell\client_app_delegates.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'to' hides class member (compiling source file appshell\client_app_delegates.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1840): note: see declaration of '_cef_page_range_t::to' (compiling source file appshell\client_app_delegates.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'from' hides class member (compiling source file appshell\client_app_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1839): note: see declaration of '_cef_page_range_t::from' (compiling source file appshell\client_app_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'to' hides class member (compiling source file appshell\client_app_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1840): note: see declaration of '_cef_page_range_t::to' (compiling source file appshell\client_app_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'x' hides class member (compiling source file appshell\client_handler.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1109): note: see declaration of '_cef_point_t::x' (compiling source file appshell\client_handler.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'y' hides class member (compiling source file appshell\client_handler.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1110): note: see declaration of '_cef_point_t::y' (compiling source file appshell\client_handler.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'x' hides class member (compiling source file appshell\client_handler.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1117): note: see declaration of '_cef_rect_t::x' (compiling source file appshell\client_handler.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'y' hides class member (compiling source file appshell\client_handler.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1118): note: see declaration of '_cef_rect_t::y' (compiling source file appshell\client_handler.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'width' hides class member (compiling source file appshell\client_handler.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1119): note: see declaration of '_cef_rect_t::width' (compiling source file appshell\client_handler.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'height' hides class member (compiling source file appshell\client_handler.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1120): note: see declaration of '_cef_rect_t::height' (compiling source file appshell\client_handler.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'width' hides class member (compiling source file appshell\client_handler.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1127): note: see declaration of '_cef_size_t::width' (compiling source file appshell\client_handler.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'height' hides class member (compiling source file appshell\client_handler.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1128): note: see declaration of '_cef_size_t::height' (compiling source file appshell\client_handler.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(299): warning C4458: declaration of 'device_scale_factor' hides class member (compiling source file appshell\client_handler.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1231): note: see declaration of '_cef_screen_info_t::device_scale_factor' (compiling source file appshell\client_handler.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(300): warning C4458: declaration of 'depth' hides class member (compiling source file appshell\client_handler.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1236): note: see declaration of '_cef_screen_info_t::depth' (compiling source file appshell\client_handler.cpp)
+         client_handler_win.cpp
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(301): warning C4458: declaration of 'depth_per_component' hides class member (compiling source file appshell\client_handler.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1242): note: see declaration of '_cef_screen_info_t::depth_per_component' (compiling source file appshell\client_handler.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(302): warning C4458: declaration of 'is_monochrome' hides class member (compiling source file appshell\client_handler.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1247): note: see declaration of '_cef_screen_info_t::is_monochrome' (compiling source file appshell\client_handler.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(303): warning C4458: declaration of 'rect' hides class member (compiling source file appshell\client_handler.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1259): note: see declaration of '_cef_screen_info_t::rect' (compiling source file appshell\client_handler.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(304): warning C4458: declaration of 'available_rect' hides class member (compiling source file appshell\client_handler.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1274): note: see declaration of '_cef_screen_info_t::available_rect' (compiling source file appshell\client_handler.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'from' hides class member (compiling source file appshell\client_handler.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1839): note: see declaration of '_cef_page_range_t::from' (compiling source file appshell\client_handler.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'to' hides class member (compiling source file appshell\client_handler.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1840): note: see declaration of '_cef_page_range_t::to' (compiling source file appshell\client_handler.cpp)
+         client_switches.cpp
+         native_menu_model.cpp
+         resource_util_win.cpp
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'x' hides class member (compiling source file appshell\client_handler_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1109): note: see declaration of '_cef_point_t::x' (compiling source file appshell\client_handler_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'y' hides class member (compiling source file appshell\client_handler_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1110): note: see declaration of '_cef_point_t::y' (compiling source file appshell\client_handler_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'x' hides class member (compiling source file appshell\client_handler_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1117): note: see declaration of '_cef_rect_t::x' (compiling source file appshell\client_handler_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'y' hides class member (compiling source file appshell\client_handler_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1118): note: see declaration of '_cef_rect_t::y' (compiling source file appshell\client_handler_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'width' hides class member (compiling source file appshell\client_handler_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1119): note: see declaration of '_cef_rect_t::width' (compiling source file appshell\client_handler_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'height' hides class member (compiling source file appshell\client_handler_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1120): note: see declaration of '_cef_rect_t::height' (compiling source file appshell\client_handler_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'width' hides class member (compiling source file appshell\client_handler_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1127): note: see declaration of '_cef_size_t::width' (compiling source file appshell\client_handler_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'height' hides class member (compiling source file appshell\client_handler_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1128): note: see declaration of '_cef_size_t::height' (compiling source file appshell\client_handler_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(299): warning C4458: declaration of 'device_scale_factor' hides class member (compiling source file appshell\client_handler_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1231): note: see declaration of '_cef_screen_info_t::device_scale_factor' (compiling source file appshell\client_handler_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(300): warning C4458: declaration of 'depth' hides class member (compiling source file appshell\client_handler_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1236): note: see declaration of '_cef_screen_info_t::depth' (compiling source file appshell\client_handler_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(301): warning C4458: declaration of 'depth_per_component' hides class member (compiling source file appshell\client_handler_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1242): note: see declaration of '_cef_screen_info_t::depth_per_component' (compiling source file appshell\client_handler_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(302): warning C4458: declaration of 'is_monochrome' hides class member (compiling source file appshell\client_handler_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1247): note: see declaration of '_cef_screen_info_t::is_monochrome' (compiling source file appshell\client_handler_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(303): warning C4458: declaration of 'rect' hides class member (compiling source file appshell\client_handler_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1259): note: see declaration of '_cef_screen_info_t::rect' (compiling source file appshell\client_handler_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(304): warning C4458: declaration of 'available_rect' hides class member (compiling source file appshell\client_handler_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1274): note: see declaration of '_cef_screen_info_t::available_rect' (compiling source file appshell\client_handler_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'from' hides class member (compiling source file appshell\client_handler_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1839): note: see declaration of '_cef_page_range_t::from' (compiling source file appshell\client_handler_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'to' hides class member (compiling source file appshell\client_handler_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1840): note: see declaration of '_cef_page_range_t::to' (compiling source file appshell\client_handler_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'x' hides class member (compiling source file appshell\native_menu_model.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1109): note: see declaration of '_cef_point_t::x' (compiling source file appshell\native_menu_model.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'y' hides class member (compiling source file appshell\native_menu_model.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1110): note: see declaration of '_cef_point_t::y' (compiling source file appshell\native_menu_model.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'x' hides class member (compiling source file appshell\native_menu_model.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1117): note: see declaration of '_cef_rect_t::x' (compiling source file appshell\native_menu_model.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'y' hides class member (compiling source file appshell\native_menu_model.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1118): note: see declaration of '_cef_rect_t::y' (compiling source file appshell\native_menu_model.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'width' hides class member (compiling source file appshell\native_menu_model.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1119): note: see declaration of '_cef_rect_t::width' (compiling source file appshell\native_menu_model.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'height' hides class member (compiling source file appshell\native_menu_model.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1120): note: see declaration of '_cef_rect_t::height' (compiling source file appshell\native_menu_model.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'width' hides class member (compiling source file appshell\native_menu_model.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1127): note: see declaration of '_cef_size_t::width' (compiling source file appshell\native_menu_model.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'height' hides class member (compiling source file appshell\native_menu_model.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1128): note: see declaration of '_cef_size_t::height' (compiling source file appshell\native_menu_model.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(299): warning C4458: declaration of 'device_scale_factor' hides class member (compiling source file appshell\native_menu_model.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1231): note: see declaration of '_cef_screen_info_t::device_scale_factor' (compiling source file appshell\native_menu_model.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(300): warning C4458: declaration of 'depth' hides class member (compiling source file appshell\native_menu_model.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1236): note: see declaration of '_cef_screen_info_t::depth' (compiling source file appshell\native_menu_model.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(301): warning C4458: declaration of 'depth_per_component' hides class member (compiling source file appshell\native_menu_model.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1242): note: see declaration of '_cef_screen_info_t::depth_per_component' (compiling source file appshell\native_menu_model.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(302): warning C4458: declaration of 'is_monochrome' hides class member (compiling source file appshell\native_menu_model.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1247): note: see declaration of '_cef_screen_info_t::is_monochrome' (compiling source file appshell\native_menu_model.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(303): warning C4458: declaration of 'rect' hides class member (compiling source file appshell\native_menu_model.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1259): note: see declaration of '_cef_screen_info_t::rect' (compiling source file appshell\native_menu_model.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(304): warning C4458: declaration of 'available_rect' hides class member (compiling source file appshell\native_menu_model.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1274): note: see declaration of '_cef_screen_info_t::available_rect' (compiling source file appshell\native_menu_model.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'from' hides class member (compiling source file appshell\native_menu_model.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1839): note: see declaration of '_cef_page_range_t::from' (compiling source file appshell\native_menu_model.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'to' hides class member (compiling source file appshell\native_menu_model.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1840): note: see declaration of '_cef_page_range_t::to' (compiling source file appshell\native_menu_model.cpp)
+         string_util.cpp
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'x' hides class member (compiling source file appshell\resource_util_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1109): note: see declaration of '_cef_point_t::x' (compiling source file appshell\resource_util_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'y' hides class member (compiling source file appshell\resource_util_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1110): note: see declaration of '_cef_point_t::y' (compiling source file appshell\resource_util_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'x' hides class member (compiling source file appshell\resource_util_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1117): note: see declaration of '_cef_rect_t::x' (compiling source file appshell\resource_util_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'y' hides class member (compiling source file appshell\resource_util_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1118): note: see declaration of '_cef_rect_t::y' (compiling source file appshell\resource_util_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'width' hides class member (compiling source file appshell\resource_util_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1119): note: see declaration of '_cef_rect_t::width' (compiling source file appshell\resource_util_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'height' hides class member (compiling source file appshell\resource_util_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1120): note: see declaration of '_cef_rect_t::height' (compiling source file appshell\resource_util_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'width' hides class member (compiling source file appshell\resource_util_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1127): note: see declaration of '_cef_size_t::width' (compiling source file appshell\resource_util_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'height' hides class member (compiling source file appshell\resource_util_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1128): note: see declaration of '_cef_size_t::height' (compiling source file appshell\resource_util_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(299): warning C4458: declaration of 'device_scale_factor' hides class member (compiling source file appshell\resource_util_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1231): note: see declaration of '_cef_screen_info_t::device_scale_factor' (compiling source file appshell\resource_util_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(300): warning C4458: declaration of 'depth' hides class member (compiling source file appshell\resource_util_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1236): note: see declaration of '_cef_screen_info_t::depth' (compiling source file appshell\resource_util_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(301): warning C4458: declaration of 'depth_per_component' hides class member (compiling source file appshell\resource_util_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1242): note: see declaration of '_cef_screen_info_t::depth_per_component' (compiling source file appshell\resource_util_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(302): warning C4458: declaration of 'is_monochrome' hides class member (compiling source file appshell\resource_util_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1247): note: see declaration of '_cef_screen_info_t::is_monochrome' (compiling source file appshell\resource_util_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(303): warning C4458: declaration of 'rect' hides class member (compiling source file appshell\resource_util_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1259): note: see declaration of '_cef_screen_info_t::rect' (compiling source file appshell\resource_util_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(304): warning C4458: declaration of 'available_rect' hides class member (compiling source file appshell\resource_util_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1274): note: see declaration of '_cef_screen_info_t::available_rect' (compiling source file appshell\resource_util_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'from' hides class member (compiling source file appshell\resource_util_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1839): note: see declaration of '_cef_page_range_t::from' (compiling source file appshell\resource_util_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'to' hides class member (compiling source file appshell\resource_util_win.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1840): note: see declaration of '_cef_page_range_t::to' (compiling source file appshell\resource_util_win.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'x' hides class member (compiling source file appshell\string_util.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1109): note: see declaration of '_cef_point_t::x' (compiling source file appshell\string_util.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(164): warning C4458: declaration of 'y' hides class member (compiling source file appshell\string_util.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1110): note: see declaration of '_cef_point_t::y' (compiling source file appshell\string_util.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'x' hides class member (compiling source file appshell\string_util.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1117): note: see declaration of '_cef_rect_t::x' (compiling source file appshell\string_util.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'y' hides class member (compiling source file appshell\string_util.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1118): note: see declaration of '_cef_rect_t::y' (compiling source file appshell\string_util.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'width' hides class member (compiling source file appshell\string_util.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1119): note: see declaration of '_cef_rect_t::width' (compiling source file appshell\string_util.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(205): warning C4458: declaration of 'height' hides class member (compiling source file appshell\string_util.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1120): note: see declaration of '_cef_rect_t::height' (compiling source file appshell\string_util.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'width' hides class member (compiling source file appshell\string_util.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1127): note: see declaration of '_cef_size_t::width' (compiling source file appshell\string_util.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(246): warning C4458: declaration of 'height' hides class member (compiling source file appshell\string_util.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1128): note: see declaration of '_cef_size_t::height' (compiling source file appshell\string_util.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(299): warning C4458: declaration of 'device_scale_factor' hides class member (compiling source file appshell\string_util.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1231): note: see declaration of '_cef_screen_info_t::device_scale_factor' (compiling source file appshell\string_util.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(300): warning C4458: declaration of 'depth' hides class member (compiling source file appshell\string_util.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1236): note: see declaration of '_cef_screen_info_t::depth' (compiling source file appshell\string_util.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(301): warning C4458: declaration of 'depth_per_component' hides class member (compiling source file appshell\string_util.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1242): note: see declaration of '_cef_screen_info_t::depth_per_component' (compiling source file appshell\string_util.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(302): warning C4458: declaration of 'is_monochrome' hides class member (compiling source file appshell\string_util.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1247): note: see declaration of '_cef_screen_info_t::is_monochrome' (compiling source file appshell\string_util.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(303): warning C4458: declaration of 'rect' hides class member (compiling source file appshell\string_util.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1259): note: see declaration of '_cef_screen_info_t::rect' (compiling source file appshell\string_util.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(304): warning C4458: declaration of 'available_rect' hides class member (compiling source file appshell\string_util.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1274): note: see declaration of '_cef_screen_info_t::available_rect' (compiling source file appshell\string_util.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'from' hides class member (compiling source file appshell\string_util.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1839): note: see declaration of '_cef_page_range_t::from' (compiling source file appshell\string_util.cpp)
+     1>D:\brackets-shell\include/internal/cef_types_wrappers.h(745): warning C4458: declaration of 'to' hides class member (compiling source file appshell\string_util.cpp)
+         D:\brackets-shell\include/internal/cef_types.h(1840): note: see declaration of '_cef_page_range_t::to' (compiling source file appshell\string_util.cpp)
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WIN32 /D _WINDOWS /D NOMINMAX /D PSAPI_VERSION=1 /D _CRT_RAND_S /D CERT_CHAIN_PARA_HAS_EXTRA_FIELDS /D WIN32_LEAN_AND_MEAN /D _ATL_NO_OPENGL /D _HAS_EXCEPTIONS=0 /D _SECURE_ATL /D CHROMIUM_BUILD /D TOOLKIT_VIEWS=1 /D USE_LIBJPEG_TURBO=1 /D ENABLE_ONE_CLICK_SIGNIN /D ENABLE_REMOTING=1 /D ENABLE_WEBRTC=1 /D ENABLE_PEPPER_THREADING /D ENABLE_CONFIGURATION_POLICY /D ENABLE_INPUT_SPEECH /D ENABLE_NOTIFICATIONS /D ENABLE_GPU=1 /D ENABLE_EGLIMAGE=1 /D USE_SKIA=1 /D __STD_C /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D NTDDI_VERSION=0x06020000 /D ENABLE_TASK_MANAGER=1 /D ENABLE_WEB_INTENTS=1 /D ENABLE_EXTENSIONS=1 /D ENABLE_PLUGIN_INSTALLATION=1 /D ENABLE_PROTECTOR_SERVICE=1 /D ENABLE_SESSION_SERVICE=1 /D ENABLE_THEMES=1 /D ENABLE_BACKGROUND=1 /D ENABLE_AUTOMATION=1 /D ENABLE_LANGUAGE_DETECTION=1 /D ENABLE_PRINTING=1 /D ENABLE_CAPTIVE_PORTAL_DETECTION=1 /D ENABLE_APP_LIST=1 /D ENABLE_SETTINGS_APP=1 /D USING_CEF_SHARED /D __STDC_CONSTANT_MACROS /D __STDC_FORMAT_MACROS /D NDEBUG /D NVALGRIND /D DYNAMIC_ANNOTATIONS_ENABLED=0 /D _UNICODE /D UNICODE /l"0x0409" /I. /IRelease\obj\global_intermediate /Ithird_party\wtl\include /I. /Ithird_party\platformsdk_win8\files\Include\shared /Ithird_party\platformsdk_win8\files\Include\um /Ithird_party\platformsdk_win8\files\Include\winrt /Ithird_party\directxsdk\files\Include /I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\\VC\atlmfc\include" /nologo /fo"D:\brackets-shell\Release\obj\Brackets\cefclient.res" appshell\cefclient.rc 
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WIN32 /D _WINDOWS /D NOMINMAX /D PSAPI_VERSION=1 /D _CRT_RAND_S /D CERT_CHAIN_PARA_HAS_EXTRA_FIELDS /D WIN32_LEAN_AND_MEAN /D _ATL_NO_OPENGL /D _HAS_EXCEPTIONS=0 /D _SECURE_ATL /D CHROMIUM_BUILD /D TOOLKIT_VIEWS=1 /D USE_LIBJPEG_TURBO=1 /D ENABLE_ONE_CLICK_SIGNIN /D ENABLE_REMOTING=1 /D ENABLE_WEBRTC=1 /D ENABLE_PEPPER_THREADING /D ENABLE_CONFIGURATION_POLICY /D ENABLE_INPUT_SPEECH /D ENABLE_NOTIFICATIONS /D ENABLE_GPU=1 /D ENABLE_EGLIMAGE=1 /D USE_SKIA=1 /D __STD_C /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D NTDDI_VERSION=0x06020000 /D ENABLE_TASK_MANAGER=1 /D ENABLE_WEB_INTENTS=1 /D ENABLE_EXTENSIONS=1 /D ENABLE_PLUGIN_INSTALLATION=1 /D ENABLE_PROTECTOR_SERVICE=1 /D ENABLE_SESSION_SERVICE=1 /D ENABLE_THEMES=1 /D ENABLE_BACKGROUND=1 /D ENABLE_AUTOMATION=1 /D ENABLE_LANGUAGE_DETECTION=1 /D ENABLE_PRINTING=1 /D ENABLE_CAPTIVE_PORTAL_DETECTION=1 /D ENABLE_APP_LIST=1 /D ENABLE_SETTINGS_APP=1 /D USING_CEF_SHARED /D __STDC_CONSTANT_MACROS /D __STDC_FORMAT_MACROS /D NDEBUG /D NVALGRIND /D DYNAMIC_ANNOTATIONS_ENABLED=0 /D _UNICODE /D UNICODE /l"0x0409" /I. /IRelease\obj\global_intermediate /Ithird_party\wtl\include /I. /Ithird_party\platformsdk_win8\files\Include\shared /Ithird_party\platformsdk_win8\files\Include\um /Ithird_party\platformsdk_win8\files\Include\winrt /Ithird_party\directxsdk\files\Include /I"C:\Program Files (x86)\Microsoft Visual Studio 14.0\\VC\atlmfc\include" /nologo /fo"D:\brackets-shell\Release\obj\Brackets\version.res" appshell\version.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\Brackets.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\third_party\directxsdk\files\Lib\x86 /LIBPATH:.\third_party\platformsdk_win8\files\Lib\win8\um\x86 wininet.lib dnsapi.lib version.lib msimg32.lib ws2_32.lib usp10.lib psapi.lib dbghelp.lib winmm.lib shlwapi.lib comctl32.lib shlwapi.lib rpcrt4.lib opengl32.lib glu32.lib Release\libcef.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Delayimp.lib /DELAYLOAD:dbghelp.dll /DELAYLOAD:dwmapi.dll /DELAYLOAD:shell32.dll /DELAYLOAD:uxtheme.dll /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"Release\Brackets.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /IMPLIB:"Release\lib\Brackets.lib" /MACHINE:X86 /PROFILE /SAFESEH /safeseh /dynamicbase /ignore:4199 /ignore:4221 /nxcompat "D:\brackets-shell\Release\obj\Brackets\cefclient.res"
+         "D:\brackets-shell\Release\obj\Brackets\version.res"
+         "D:\brackets-shell\Release\obj\Brackets\appshell_extensions.obj"
+         "D:\brackets-shell\Release\obj\Brackets\appshell_extensions_win.obj"
+         "D:\brackets-shell\Release\obj\Brackets\appshell_node_process.obj"
+         "D:\brackets-shell\Release\obj\Brackets\appshell_node_process_win.obj"
+         "D:\brackets-shell\Release\obj\Brackets\cefclient.obj"
+         "D:\brackets-shell\Release\obj\Brackets\cefclient_win.obj"
+         "D:\brackets-shell\Release\obj\Brackets\cef_dark_aero_window.obj"
+         "D:\brackets-shell\Release\obj\Brackets\cef_dark_window.obj"
+         "D:\brackets-shell\Release\obj\Brackets\cef_host_window.obj"
+         "D:\brackets-shell\Release\obj\Brackets\cef_main_window.obj"
+         "D:\brackets-shell\Release\obj\Brackets\cef_popup_window.obj"
+         "D:\brackets-shell\Release\obj\Brackets\cef_registry.obj"
+         "D:\brackets-shell\Release\obj\Brackets\cef_window.obj"
+         "D:\brackets-shell\Release\obj\Brackets\client_app.obj"
+         "D:\brackets-shell\Release\obj\Brackets\client_app_delegates.obj"
+         "D:\brackets-shell\Release\obj\Brackets\client_app_win.obj"
+         "D:\brackets-shell\Release\obj\Brackets\client_handler.obj"
+         "D:\brackets-shell\Release\obj\Brackets\client_handler_win.obj"
+         "D:\brackets-shell\Release\obj\Brackets\client_switches.obj"
+         "D:\brackets-shell\Release\obj\Brackets\native_menu_model.obj"
+         "D:\brackets-shell\Release\obj\Brackets\resource_util_win.obj"
+         "D:\brackets-shell\Release\obj\Brackets\string_util.obj"
+         "D:\brackets-shell\Release\lib\libcef_dll_wrapper.lib"
+         Brackets.vcxproj -> D:\brackets-shell\Release\Brackets.exe
+     1>Done Building Project "D:\brackets-shell\Brackets.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.77

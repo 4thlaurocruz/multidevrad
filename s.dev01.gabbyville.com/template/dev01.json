@@ -1,0 +1,9 @@
+{
+	"packages": {
+		"meteor": [],
+		"mrt"   : []
+	},
+	"copy_files": [
+		{ "source": "TEMPLATE_UI_DIR/bootstrap3-plugins/", "dest": "CLIENT_STYLES_FRAMEWORK_DIR/bootstrap3-plugins/" }
+	]
+}

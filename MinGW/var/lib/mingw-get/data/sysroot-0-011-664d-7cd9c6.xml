@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<sysroot id="sysroot-0-011-664d-7cd9c6" path="%R/msys/1.0">
+    <installed tarname="rsync-3.0.8-1-msys-1.0.17-bin.tar.lzma">
+        <requires eq="msys-core-*-msys-*-bin.tar" />
+        <requires eq="msys-libiconv-*-msys-*-dll-2.tar" />
+        <requires eq="msys-libpopt-*-msys-*-dll-0.tar" />
+    </installed>
+    <installed tarname="openssh-5.4p1-1-msys-1.0.13-bin.tar.lzma">
+        <requires eq="msys-core-*-msys-*-bin.tar" />
+        <requires eq="msys-libminires-*-msys-*-dll.tar" />
+        <requires eq="msys-libopenssl-*-msys-*-dll-100.tar" />
+        <requires eq="msys-zlib-*-msys-*-dll.tar" />
+    </installed>
+    <installed tarname="libpopt-1.15-2-msys-1.0.13-dll-0.tar.lzma">
+        <requires eq="msys-core-*-msys-*-bin.tar" />
+        <requires eq="msys-libintl-*-msys-*-dll-8.tar" />
+    </installed>
+    <installed tarname="libopenssl-1.0.0-1-msys-1.0.13-dll-100.tar.lzma">
+        <requires eq="msys-core-*-msys-*-bin.tar" />
+    </installed>
+    <installed tarname="libminires-1.02_1-2-msys-1.0.13-dll.tar.lzma">
+        <requires eq="msys-core-*-msys-*-bin.tar" />
+    </installed>
+    <installed tarname="libintl-0.18.1.1-1-msys-1.0.17-dll-8.tar.lzma">
+        <requires eq="msys-core-*-msys-*-bin.tar" />
+        <requires eq="msys-libiconv-1.14-1-msys-*-dll-2.tar" />
+    </installed>
+    <installed tarname="libiconv-1.14-1-msys-1.0.17-dll-2.tar.lzma">
+        <requires eq="msys-core-*-msys-*-bin.tar" />
+    </installed>
+    <installed tarname="msysCORE-1.0.18-1-msys-1.0.18-bin.tar.lzma">
+        <requires eq="msys-core-%-msys-%-doc.tar" />
+        <requires eq="msys-core-%-msys-%-lic.tar" />
+    </installed>
+    <installed tarname="zlib-1.2.7-1-msys-1.0.17-dll.tar.lzma">
+        <requires eq="msys-core-*-msys-*-bin.tar" />
+    </installed>
+</sysroot>

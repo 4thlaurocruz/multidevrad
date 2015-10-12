@@ -1,0 +1,55 @@
+<template name="navigation">
+    <nav class="navbar-default navbar-static-side" role="navigation">
+        <div class="sidebar-collapse">
+
+            <ul class="nav metismenu" id="side-menu">
+                
+                <li class="{{isActiveRoute regex='charts'}}">
+                    <a href="{{pathFor route='charts'}}"><i class="fa fa-diamond"></i> <span class="nav-label">CHARTS</span> </a>
+                </li>
+                
+                <li class="{{isActiveRoute regex='dashboard'}}">
+                    <a href="{{pathFor route='dashboard'}}"><i class="fa fa-diamond"></i> <span class="nav-label">DASHBOARD</span> </a>
+                </li>
+                
+                <li class="{{isActiveRoute regex='presence'}}">
+                    <a href="{{pathFor route='presence'}}"><i class="fa fa-diamond"></i> <span class="nav-label">PRESENCE</span> </a>
+                </li>
+                
+                <li class="{{isActiveRoute regex='call_history'}}">
+                    <a href="{{pathFor route='call_history'}}"><i class="fa fa-diamond"></i> <span class="nav-label">CALL HISTORY</span> </a>
+                </li>
+                
+                <li class="{{isActiveRoute regex='task'}}">
+                    <a href="{{pathFor route='task'}}"><i class="fa fa-diamond"></i> <span class="nav-label">TASK</span> </a>
+                </li>
+                
+                <li class="{{isActiveRoute regex='scripts'}}">
+                    <a href="{{pathFor route='scripts'}}"><i class="fa fa-diamond"></i> <span class="nav-label">SCRIPTS</span> </a>
+                </li>
+                
+                <li class="{{isActiveRoute regex='calendar'}}">
+                    <a href="{{pathFor route='calendar'}}"><i class="fa fa-diamond"></i> <span class="nav-label">CALENDAR</span> </a>
+                </li>
+                
+                <li class="{{isActiveRoute regex='phone_book'}}">
+                    <a href="{{pathFor route='phone_book'}}"><i class="fa fa-diamond"></i> <span class="nav-label">PHONE BOOK</span> </a>
+                </li>
+                
+                <li class="{{isActiveRoute regex='billing'}}">
+                    <a href="{{pathFor route='billing'}}"><i class="fa fa-diamond"></i> <span class="nav-label">BILLING</span> </a>
+                </li>
+                
+                <li class="{{isActiveRoute regex='faq'}}">
+                    <a href="{{pathFor route='faq'}}"><i class="fa fa-diamond"></i> <span class="nav-label">FAQ</span> </a>
+                </li>
+                
+                <li class="{{isActiveRoute regex='my_account'}}">
+                    <a href="{{pathFor route='my_account'}}"><i class="fa fa-diamond"></i> <span class="nav-label">MY ACCOUNT</span> </a>
+                </li>
+                
+            </ul>
+
+        </div>
+    </nav>
+</template>

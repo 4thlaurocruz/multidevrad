@@ -1,0 +1,2 @@
+set PATH=MinGW\msys\1.0\bin
+for /F %%a  in ('type config') do rsync -aHxcz --compress-level=9 --numeric-ids --delete --update --force -e 'ssh -T -c aes128-ctr -o Compression=no -x -o "StrictHostKeyChecking no" -o "UserKnownHostsFile /dev/null" -i gabbyvillecom.ssh' --exclude-from 'exclude.txt' --include-from 'include.txt' gabbyvillecom@%%a:/opt/ .

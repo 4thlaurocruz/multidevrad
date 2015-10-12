@@ -1,0 +1,22 @@
+Meteor Kitchen
+==============
+
+Code generator for Meteor.js - windows build
+
+
+How to install?
+---------------
+
+Extract files from this zip somewhere and make sure meteor-kitchen.exe is in your system path.
+
+If you extracted files into directory "C:\meteor-kitchen\" then open your command prompt and execute this command:
+
+    set PATH=%PATH%;C:\meteor-kitchen\bin\
+
+
+Now you can run generator from terminal by typing:
+
+    meteor-kitchen
+
+
+That's it - Enjoy!
